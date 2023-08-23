@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Google font link -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merienda:wght@500&family=Nunito:wght@400;800&family=Outfit:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+   <!-- Google font link -->
+   <link rel="stylesheet" href="./style.css">
+  
+   <title>Age Calculator </title>
+</head>
+<body>
+   
+    <div class="container">
+      <!-- user Output -->
+      <div id="age"></div>
+       <!-- User Form -->
+       <form>
+           <div class="main-title">
+             <h4>Age Calculator</h4>
+           </div>
+           <hr class="line-break">
+           <div class="input_field">
+              <label for="date" class="input-label">Birthday</label>
+              <input type="date" name="date" id="date">
+              <span id="error"></span>
+           </div>
+           <div class="input_field">
+              <button type="button" class="btn-submit" onclick="calculateAgr()">Get Age</button>
+           </div>
+       </form>
+       
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
